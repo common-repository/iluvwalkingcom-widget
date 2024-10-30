@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+body #walker-tracker-widget-stats li {
+	background: none;
+	padding: 0;
+	text-align: right;
+	float: left;
+	width: 100%;
+}
+
+body #walker-tracker-widget-stats {
+	margin-left: 0;
+	width: 95%;
+	float: left;
+}
+
+body #walker-tracker-widget-stats li strong {
+	float: left;
+	display: block;
+	text-align: left;
+}
+
+body #sidebar #walker-tracker-widget-stats li:before {
+	content: "";
+}
+
+#walker-tracker-widget-logo {
+	display: block;
+	margin: 10px auto 0;
+	padding: 10px;
+}
+
+#sidebar ul#walker-tracker-widget-stats {
+	margin: 0;
+}
+
+p#walker-tracker-widget-get {
+	text-align: center;
+}

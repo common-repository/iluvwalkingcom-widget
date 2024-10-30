@@ -1,0 +1,3 @@
+<p><label for="iluvwalking-com-title"><?php	_e( 'Title:' ); ?> <input class="widefat" id="iluvwalking-com-title" name="iluvwalking-com-title" type="text" value="<?php echo $title; ?>" /></label></p>
+<p><label for="iluvwalking-com-name"><?php _e( 'ILuvWalking.com Username:' );?> <input class="widefat" id="iluvwalking-com-name" name="iluvwalking-com-name" type="text" value="<?php echo $name; ?>" /></label> <br />
+<input type="hidden" id="iluvwalking-com-submit" name="iluvwalking-com-submit" value="1" />
